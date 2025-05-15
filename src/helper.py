@@ -77,7 +77,7 @@ class CustomHelper(BaseHelper):
         cid_f_0 = scipy.io.loadmat(bluered_file)['cid_f'][0, 0]
         true_labels = y_classify.reshape(-1) + 1 #(0-based to 1-based)
 
-        # Find best configuration by ARI score TODO: replace with RMS later
+        # Find best configuration by ARI score
         aris = [adjusted_rand_score(true_labels, cid_f_0[:, i]) 
                 for i in range(cid_f_0.shape[1])]
         best_index = np.argmax(aris)
