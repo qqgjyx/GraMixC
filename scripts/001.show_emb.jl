@@ -29,8 +29,6 @@ Y_umap = umap(F'; n_neighbors=15, min_dist=0.1, n_epochs=200)
 show_embedding(Y_umap', L; res = (2000, 2000), mrk_size = 4)
 
 
-# TODO: Till Apr 8, 2025, the following code is not working.
-
 # show the t-SNE embedding
 # Note: Standard t-SNE can be computationally intensive for large datasets
 # because it computes pairwise distances between all points (O(n²) complexity)

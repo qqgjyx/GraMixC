@@ -1,14 +1,14 @@
 <!-- Drafted by Juntang Wang at 2025-03-01 -->
 
-# GraMixC: Multi-Resolution Graph-Based Clustering for Downstream Prediction
+# Mixing Configurations for Downstream Prediction
 
-This repository contains the code for the paper "GraMixC: Multi-Resolution Graph-Based Clustering for Downstream Prediction".
+This repository contains the code for the paper "Mixing Configurations for Downstream Prediction".
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 ## Overview
 
-This project implements GraphMixC (GMC) for various datasets including DSMI, MNIST, Boston House, and QM9.
+This project implements GraMixC (GMC) for various datasets including DSNI, MNIST, Boston House, and QM9.
 
 ## Installation
 
@@ -32,8 +32,8 @@ ml4dsmz/
 ├── data/                         # Dataset storage
 ├── documents/overleaf_ml4dsmz_manuscript/
 ├── notebooks/
-│   ├── 000.main_DSMZ-pH.ipynb    # DSMZ-pH dataset implementation
-│   ├── 000.main_DSMZ-Temp.ipynb  # DSMZ-Temp dataset implementation
+│   ├── 000.main_DSNI-pH.ipynb    # DSNI-pH dataset implementation
+│   ├── 000.main_DSNI-Temp.ipynb  # DSNI-Temp dataset implementation
 │   ├── 001.main_MNIST.ipynb      # MNIST dataset implementation
 │   ├── 002.main_BHouse.ipynb     # BHouse dataset implementation
 │   ├── 003.main_CIFAR10.ipynb    # CIFAR10 dataset implementation
